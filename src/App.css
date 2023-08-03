@@ -36,3 +36,200 @@
     transform: rotate(360deg);
   }
 }
+
+.homeBG {
+  background-image: url(./assets/images/Fondo2.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBG {
+  background-image: url(./assets/images/fondo3.png);
+  height: 93%;
+  width: 93%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.grid-10 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 3fr 3fr;
+}
+
+.header {
+  grid-column: 1/13;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem;
+}
+
+.name {
+  color: #191919;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.98px;
+  margin: 0;
+}
+
+.rowlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.rowlist li {
+  margin: 0.5rem;
+  padding: 1rem;
+  transition: 0.5s ease;
+  border-radius: 1rem;
+}
+
+.rowlist li:hover {
+  background-color: #434040;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signinbutton {
+  background-color: #191919;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  border: 1px solid #191919;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.signinbutton:hover {
+  background-color: #19191900;
+  color: black;
+}
+
+.body {
+  grid-column: 3/7;
+  text-align: left;
+}
+
+.title {
+  color: #000;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102px;
+  margin: 0;
+}
+
+.text {
+  color: #88888C;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 122.4%;
+  margin: 0.5rem 0 2rem;
+}
+
+.startButton {
+  width: 8rem;
+  border-radius: 50px;
+  background: #3D5CFF;
+  border: none;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  gap: 1.5rem;
+}
+
+.textButton {
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer {
+  max-height: 50%;
+  margin: 5rem 0rem;
+  grid-column: 3/11;
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.titleFooter {
+  grid-template-rows: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  border-bottom: 1px solid #EAE9EA;
+}
+
+.textIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.textFooter {
+  color: #858585;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: 0.5rem;
+  display: flex;
+  transition: 0.5s ease;
+  cursor: default;
+}
+
+.card:hover {
+  padding-bottom: 1rem;
+}
+
+.iconCard {
+  padding: 0.1rem 1rem 0rem;
+}
+
+.textCard {
+  text-align: left;
+}
+
+.textCard p {
+  color: #858585;
+  margin-top: 0;
+}
+
+.textCard h3 {
+  margin: 0;
+}
